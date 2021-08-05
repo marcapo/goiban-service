@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/fourcube/goiban"
+	"github.com/marcapo/goiban"
 )
 
 func TestGenerateIBANIgnoreCountryCase(t *testing.T) {

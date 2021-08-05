@@ -29,8 +29,8 @@ import (
 	"encoding/json"
 	"log"
 
-	goiban "github.com/fourcube/goiban"
 	"github.com/franela/goreq"
+	goiban "github.com/marcapo/goiban"
 )
 
 // KeenMetrics is deprecated

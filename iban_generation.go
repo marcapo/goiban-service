@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/fourcube/goiban"
 	"github.com/julienschmidt/httprouter"
+	"github.com/marcapo/goiban"
 )
 
 type CalculateSuccess struct {

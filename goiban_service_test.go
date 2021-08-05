@@ -32,15 +32,16 @@ import (
 	"os"
 	"testing"
 
-	"github.com/fourcube/goiban-data"
-	"github.com/fourcube/goiban-data-loader/loader"
+	"github.com/marcapo/goiban-data"
+	data "github.com/marcapo/goiban-data"
+	"github.com/marcapo/goiban-data-loader/loader"
 
 	"encoding/json"
 
 	"strings"
 
-	"github.com/fourcube/goiban"
 	"github.com/julienschmidt/httprouter"
+	"github.com/marcapo/goiban"
 )
 
 var server *httptest.Server

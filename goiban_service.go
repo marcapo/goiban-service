@@ -16,12 +16,12 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/fourcube/goiban-data"
-	"github.com/fourcube/goiban-data-loader/loader"
+	data "github.com/marcapo/goiban-data"
+	"github.com/marcapo/goiban-data-loader/loader"
 
-	"github.com/fourcube/goiban"
-	m "github.com/fourcube/goiban-service/metrics"
 	"github.com/julienschmidt/httprouter"
+	"github.com/marcapo/goiban"
+	m "github.com/marcapo/goiban-service/metrics"
 	"github.com/pmylund/go-cache"
 	"github.com/rs/cors"
 )

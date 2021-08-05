@@ -5,7 +5,7 @@ package metrics
 import (
 	"net/http"
 
-	"github.com/fourcube/goiban"
+	"github.com/marcapo/goiban"
 )
 
 type Event struct {

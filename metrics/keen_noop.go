@@ -26,7 +26,7 @@ THE SOFTWARE.
 package metrics
 
 import (
-	goiban "github.com/fourcube/goiban"
+	goiban "github.com/marcapo/goiban"
 )
 
 // KeenMetrics is deprecated
