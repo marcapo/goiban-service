@@ -1,6 +1,7 @@
 #/usr/bin/env bash
 CONFIGURATIONS=(
     darwin,386 \
+    darwin,arm64 \
     windows,386 \
     windows,amd64 \
     linux,386 \

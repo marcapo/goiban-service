@@ -1,6 +1,7 @@
 FROM golang:alpine
 
 WORKDIR /go/src/goiban-service
+COPY go.* ./
 COPY ./*.go ./
 
 RUN adduser -D openiban \
