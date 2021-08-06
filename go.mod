@@ -2,6 +2,7 @@ module github.com/marcapo/goiban-service
 
 go 1.16
 
+replace github.com/marcapo/goiban-service/metrics => ./metrics
 require (
 	github.com/armon/go-metrics v0.3.9
 	github.com/franela/goblin v0.0.0-20210519012713-85d372ac71e2 // indirect
