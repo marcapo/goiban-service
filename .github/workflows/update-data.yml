@@ -1,0 +1,32 @@
+name: update-data
+on:
+  schedule:
+  - cron: '0 9 * * *'
+jobs:
+  update-data:
+    name: update bank data
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        ref: release
+        ssh-key: "${{ secrets.DEPLOY_KEY }}"
+
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.16
+
+    - name: update data dependency
+      run: go get github.com/marcapo/goiban-data-loader@latest 
+
+    - name: commit updated data
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "updated goiban-data-loader dependency"
+
+
+      
+  
