@@ -12,7 +12,7 @@ require (
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/marcapo/goiban v0.0.0-20210806062339-4718315b9329
 	github.com/marcapo/goiban-data v0.0.0-20210805141159-a3af3c71fa29
-	github.com/marcapo/goiban-data-loader v0.0.0-20210816050509-32257903e88c
+	github.com/marcapo/goiban-data-loader v0.0.0-20210817050832-099f5d389ce8
 	github.com/onsi/gomega v1.14.0 // indirect
 	github.com/pmylund/go-cache v2.1.0+incompatible
 	github.com/rs/cors v1.8.0
