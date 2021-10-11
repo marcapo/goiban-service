@@ -109,6 +109,8 @@ github.com/marcapo/goiban-data-loader v0.0.0-20210927050740-f60b6d278a5c h1:5Dsc
 github.com/marcapo/goiban-data-loader v0.0.0-20210927050740-f60b6d278a5c/go.mod h1:gX4/IZS7l2j273W/dAbWLC6IUE8zEk+ZGcTQnqwPkbc=
 github.com/marcapo/goiban-data-loader v0.0.0-20211004050744-3bcb03b2bba0 h1:LAr84UPF9SNsIl41VCQ6vWzkj7VC8SR+8VRlPJwHErE=
 github.com/marcapo/goiban-data-loader v0.0.0-20211004050744-3bcb03b2bba0/go.mod h1:gX4/IZS7l2j273W/dAbWLC6IUE8zEk+ZGcTQnqwPkbc=
+github.com/marcapo/goiban-data-loader v0.0.0-20211011050745-9529f1d762e6 h1:iUhWjTABuFg8b9unqBdfYPGKR+NEu1NI6iBlcdOiPWc=
+github.com/marcapo/goiban-data-loader v0.0.0-20211011050745-9529f1d762e6/go.mod h1:gX4/IZS7l2j273W/dAbWLC6IUE8zEk+ZGcTQnqwPkbc=
 github.com/mattn/go-isatty v0.0.9/go.mod h1:YNRxwqDuOph6SZLI9vUUz6OYw3QyUt7WiY2yME+cCiQ=
 github.com/matttproud/golang_protobuf_extensions v1.0.1/go.mod h1:D8He9yQNgCq6Z5Ld7szi9bcBfOoFv/3dc6xSMkL2PC0=
 github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
